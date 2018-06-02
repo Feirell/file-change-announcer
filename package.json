@@ -4,24 +4,24 @@
   "description": "This package can be used to autoreload html pages with minmal overhead.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/cli.js"
+    "start": "node ./bin/start.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Feirell/reloader.git"
+    "url": "git+https://github.com/Feirell/file-change-announcer.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["watch", "utility"],
+  "author": "Florian Völker <florian-domenic-voelker@web.de>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Feirell/reloader/issues"
+    "url": "https://github.com/Feirell/file-change-announcer/issues"
   },
-  "homepage": "https://github.com/Feirell/reloader#readme",
+  "homepage": "https://github.com/Feirell/file-change-announcer#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "dom-like-observable": "0.0.1",
     "websocket": "^1.0.26"
   },
-  "bin": "bin/cli.js",
+  "bin": "./bin/start.js",
   "files": ["lib/*", "bin/*"]
 }

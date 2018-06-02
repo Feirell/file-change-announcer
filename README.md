@@ -4,7 +4,7 @@ This package can be used to autoreload html pages with minimal overhead.
 
 ### starting
 ```batch
-file-change-announcer start
+file-change-announcer
 ```
 
 ### example file
