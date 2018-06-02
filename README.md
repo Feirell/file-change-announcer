@@ -33,3 +33,7 @@ file-change-announcer
 ```
 
 Now everytime `C:/some/path/to/some-relative-file.js` changes the webpage will be reloaded.
+
+### GYP issue while installing
+
+This issue comes from the used [Websocket package](https://www.npmjs.com/package/websocket), see [this explanation](https://www.npmjs.com/package/websocket#installation) for more information.
